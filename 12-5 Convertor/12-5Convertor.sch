@@ -162,10 +162,10 @@ D2PAK-7</description>
 <smd name="TAB" x="0" y="0" dx="10.414" dy="10.795" layer="1"/>
 <smd name="1" x="8.3312" y="-3.81" dx="2.159" dy="0.9144" layer="1"/>
 <text x="-5.08" y="6.35" size="1.27" layer="21">&gt;NAME</text>
-<wire x1="4.318" y1="5.08" x2="-4.318" y2="5.08" width="0.127" layer="51"/>
+<wire x1="9.398" y1="5.08" x2="-4.318" y2="5.08" width="0.127" layer="51"/>
 <wire x1="-4.318" y1="5.08" x2="-4.318" y2="-5.08" width="0.127" layer="51"/>
-<wire x1="-4.318" y1="-5.08" x2="4.318" y2="-5.08" width="0.127" layer="51"/>
-<wire x1="4.318" y1="-5.08" x2="4.318" y2="5.08" width="0.127" layer="51"/>
+<wire x1="-4.318" y1="-5.08" x2="9.398" y2="-5.08" width="0.127" layer="51"/>
+<wire x1="9.398" y1="-5.08" x2="9.398" y2="5.08" width="0.127" layer="51"/>
 <wire x1="-4.318" y1="5.08" x2="-5.588" y2="5.08" width="0.127" layer="51"/>
 <wire x1="-5.588" y1="5.08" x2="-5.588" y2="-5.08" width="0.127" layer="21"/>
 <wire x1="-5.588" y1="-5.08" x2="-4.318" y2="-5.08" width="0.127" layer="51"/>
@@ -1212,7 +1212,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U1" gate="G$1" x="50.8" y="73.66"/>
 <instance part="L1" gate="G$1" x="104.14" y="73.66" rot="R90"/>
 <instance part="C1" gate="G$1" x="129.54" y="68.58"/>
-<instance part="C_IN" gate="G$1" x="7.62" y="76.2"/>
+<instance part="C_IN" gate="G$1" x="7.62" y="76.2" smashed="yes">
+<attribute name="NAME" x="8.636" y="76.835" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-4.064" y="72.009" size="1.778" layer="96"/>
+</instance>
 <instance part="C_BYPASS" gate="G$1" x="20.32" y="73.66"/>
 <instance part="C_BOOST" gate="G$1" x="83.82" y="78.74" smashed="yes" rot="R90">
 <attribute name="NAME" x="82.296" y="83.439" size="1.778" layer="95" rot="R180"/>
