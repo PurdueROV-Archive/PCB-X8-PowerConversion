@@ -1182,6 +1182,56 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="pinhead">
+<description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="1X01">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.016" shape="octagon"/>
+<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="PINHD1">
+<wire x1="-6.35" y1="-2.54" x2="1.27" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="-6.35" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="2.54" x2="-6.35" y2="-2.54" width="0.4064" layer="94"/>
+<text x="-6.35" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PINHD-1X1" prefix="JP" uservalue="yes">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="PINHD1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1202,6 +1252,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND2" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND2" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND2" device=""/>
+<part name="JP1" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="JP2" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="JP3" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="JP4" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="JP5" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="JP6" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="JP7" library="pinhead" deviceset="PINHD-1X1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1224,22 +1281,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND1" gate="G$1" x="20.32" y="68.58"/>
 <instance part="GND2" gate="G$1" x="91.44" y="60.96"/>
 <instance part="GND3" gate="G$1" x="53.34" y="50.8"/>
+<instance part="JP1" gate="G$1" x="2.54" y="93.98"/>
+<instance part="JP2" gate="G$1" x="2.54" y="114.3"/>
+<instance part="JP3" gate="G$1" x="2.54" y="86.36"/>
+<instance part="JP4" gate="G$1" x="2.54" y="124.46"/>
+<instance part="JP5" gate="G$1" x="2.54" y="104.14"/>
+<instance part="JP6" gate="G$1" x="20.32" y="114.3"/>
+<instance part="JP7" gate="G$1" x="20.32" y="104.14"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="VIN" class="0">
-<segment>
-<pinref part="C_IN" gate="G$1" pin="+"/>
-<wire x1="7.62" y1="78.74" x2="-2.54" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="C_BYPASS" gate="G$1" pin="1"/>
-<wire x1="7.62" y1="78.74" x2="20.32" y2="78.74" width="0.1524" layer="91"/>
-<junction x="7.62" y="78.74"/>
-<pinref part="U1" gate="G$1" pin="VIN"/>
-<wire x1="20.32" y1="78.74" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
-<junction x="20.32" y="78.74"/>
-</segment>
-</net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="BOOST"/>
@@ -1258,20 +1310,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="88.9" y="73.66"/>
 <pinref part="L1" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="73.66" x2="96.52" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="5V" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="FEEDBACK"/>
-<wire x1="33.02" y1="68.58" x2="27.94" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="L1" gate="G$1" pin="2"/>
-<pinref part="C1" gate="G$1" pin="+"/>
-<wire x1="111.76" y1="73.66" x2="129.54" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="73.66" x2="129.54" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="73.66" x2="134.62" y2="73.66" width="0.1524" layer="91"/>
-<junction x="129.54" y="73.66"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -1297,6 +1335,66 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U1" gate="G$1" pin="TABGND"/>
 <pinref part="GND3" gate="G$1" pin="3.3V"/>
 <wire x1="53.34" y1="53.34" x2="53.34" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="G$1" pin="1"/>
+<wire x1="0" y1="114.3" x2="-10.16" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="G$1" pin="1"/>
+<wire x1="0" y1="104.14" x2="-10.16" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ON/OFF" class="0">
+<segment>
+<pinref part="JP4" gate="G$1" pin="1"/>
+<wire x1="0" y1="124.46" x2="-10.16" y2="124.46" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="ON/OFF"/>
+<wire x1="33.02" y1="76.2" x2="27.94" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="+12V" class="0">
+<segment>
+<pinref part="C_IN" gate="G$1" pin="+"/>
+<wire x1="7.62" y1="78.74" x2="-2.54" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="C_BYPASS" gate="G$1" pin="1"/>
+<wire x1="7.62" y1="78.74" x2="20.32" y2="78.74" width="0.1524" layer="91"/>
+<junction x="7.62" y="78.74"/>
+<pinref part="U1" gate="G$1" pin="VIN"/>
+<wire x1="20.32" y1="78.74" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
+<junction x="20.32" y="78.74"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="1"/>
+<wire x1="0" y1="86.36" x2="-10.16" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="1"/>
+<wire x1="0" y1="93.98" x2="-10.16" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="+5V" class="0">
+<segment>
+<pinref part="L1" gate="G$1" pin="2"/>
+<pinref part="C1" gate="G$1" pin="+"/>
+<wire x1="111.76" y1="73.66" x2="129.54" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="73.66" x2="129.54" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="73.66" x2="134.62" y2="73.66" width="0.1524" layer="91"/>
+<junction x="129.54" y="73.66"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="FEEDBACK"/>
+<wire x1="33.02" y1="68.58" x2="27.94" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP6" gate="G$1" pin="1"/>
+<wire x1="17.78" y1="114.3" x2="10.16" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP7" gate="G$1" pin="1"/>
+<wire x1="17.78" y1="104.14" x2="10.16" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
