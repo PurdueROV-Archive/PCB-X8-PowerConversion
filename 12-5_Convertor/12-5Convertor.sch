@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4377,7 +4377,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C7" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C8" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
-<part name="R1" library="DiscreteComponents" deviceset="R-US_" device="R0603" value="1kOhm"/>
+<part name="R1" library="DiscreteComponents" deviceset="R-US_" device="R0603" value="10Ω"/>
 <part name="IC1" library="ACS764" deviceset="ACS764" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -4406,6 +4406,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="165.1" y1="218.44" x2="165.1" y2="96.52" width="0.1524" layer="97"/>
 <text x="38.1" y="195.58" size="6.4516" layer="97">Current Sensor
 Output is I2C signal</text>
+<text x="40.64" y="63.5" size="5.08" layer="97">why it needs 1kOhm?</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="86.36" y="33.02" smashed="yes" rot="R90">
@@ -4444,9 +4445,9 @@ Output is I2C signal</text>
 <attribute name="NAME" x="192.024" y="33.401" size="1.778" layer="95"/>
 <attribute name="VALUE" x="189.484" y="28.321" size="1.778" layer="96"/>
 </instance>
-<instance part="C8" gate="G$1" x="241.3" y="30.48" smashed="yes">
-<attribute name="NAME" x="242.824" y="33.401" size="1.778" layer="95"/>
-<attribute name="VALUE" x="242.824" y="28.321" size="1.778" layer="96"/>
+<instance part="C8" gate="G$1" x="246.38" y="30.48" smashed="yes">
+<attribute name="NAME" x="247.904" y="33.401" size="1.778" layer="95"/>
+<attribute name="VALUE" x="247.904" y="28.321" size="1.778" layer="96"/>
 </instance>
 <instance part="R1" gate="G$1" x="35.56" y="53.34" rot="R270"/>
 <instance part="IC1" gate="G$1" x="78.74" y="137.16"/>
@@ -4519,8 +4520,8 @@ Output is I2C signal</text>
 <wire x1="198.12" y1="25.4" x2="203.2" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="203.2" y1="25.4" x2="218.44" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="25.4" x2="241.3" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="25.4" x2="241.3" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="25.4" x2="246.38" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="25.4" x2="246.38" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="GND"/>
 <wire x1="203.2" y1="33.02" x2="203.2" y2="25.4" width="0.1524" layer="91"/>
 <junction x="203.2" y="25.4"/>
@@ -4649,11 +4650,16 @@ Output is I2C signal</text>
 <pinref part="U$3" gate="G$1" pin="OUTPUT"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="236.22" y1="38.1" x2="241.3" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="38.1" x2="241.3" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="38.1" x2="248.92" y2="38.1" width="0.1524" layer="91"/>
-<junction x="241.3" y="38.1"/>
+<wire x1="241.3" y1="38.1" x2="246.38" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="38.1" x2="246.38" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="38.1" x2="248.92" y2="38.1" width="0.1524" layer="91"/>
+<junction x="246.38" y="38.1"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
 <wire x1="248.92" y1="38.1" x2="248.92" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="TABOUT"/>
+<wire x1="236.22" y1="33.02" x2="241.3" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="33.02" x2="241.3" y2="38.1" width="0.1524" layer="91"/>
+<junction x="241.3" y="38.1"/>
 </segment>
 </net>
 <net name="FAULT" class="0">
