@@ -4377,7 +4377,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C7" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C8" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
-<part name="R1" library="DiscreteComponents" deviceset="R-US_" device="R0603" value="10Ω"/>
+<part name="R1" library="DiscreteComponents" deviceset="R-US_" device="R0603" value="10kΩ"/>
 <part name="IC1" library="ACS764" deviceset="ACS764" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -4406,7 +4406,6 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="165.1" y1="218.44" x2="165.1" y2="96.52" width="0.1524" layer="97"/>
 <text x="38.1" y="195.58" size="6.4516" layer="97">Current Sensor
 Output is I2C signal</text>
-<text x="40.64" y="63.5" size="5.08" layer="97">why it needs 1kOhm?</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="86.36" y="33.02" smashed="yes" rot="R90">
