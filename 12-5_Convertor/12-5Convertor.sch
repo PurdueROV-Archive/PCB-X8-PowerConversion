@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4759,7 +4759,7 @@ Output is I2C signal</text>
 <attribute name="VALUE" x="309.88" y="116.84" size="1.778" layer="96"/>
 </instance>
 <instance part="P+6" gate="1" x="271.78" y="203.2"/>
-<instance part="P+7" gate="1" x="238.76" y="162.56"/>
+<instance part="P+7" gate="1" x="248.92" y="180.34"/>
 <instance part="GND4" gate="1" x="271.78" y="119.38" smashed="yes">
 <attribute name="VALUE" x="269.24" y="116.84" size="1.778" layer="96"/>
 </instance>
@@ -4995,25 +4995,32 @@ Output is I2C signal</text>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="T16"/>
-<wire x1="233.68" y1="154.94" x2="238.76" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="154.94" x2="238.76" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="154.94" x2="248.92" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="154.94" x2="248.92" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="T17"/>
-<wire x1="238.76" y1="147.32" x2="233.68" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="147.32" x2="238.76" y2="139.7" width="0.1524" layer="91"/>
-<junction x="238.76" y="147.32"/>
+<wire x1="248.92" y1="147.32" x2="233.68" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="147.32" x2="248.92" y2="139.7" width="0.1524" layer="91"/>
+<junction x="248.92" y="147.32"/>
 <pinref part="U$4" gate="G$1" pin="T18"/>
-<wire x1="238.76" y1="139.7" x2="233.68" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="139.7" x2="238.76" y2="132.08" width="0.1524" layer="91"/>
-<junction x="238.76" y="139.7"/>
-<pinref part="U$4" gate="G$1" pin="T19"/>
-<wire x1="238.76" y1="132.08" x2="233.68" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="132.08" x2="238.76" y2="124.46" width="0.1524" layer="91"/>
-<junction x="238.76" y="132.08"/>
-<pinref part="U$4" gate="G$1" pin="T20"/>
-<wire x1="238.76" y1="124.46" x2="233.68" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="139.7" x2="233.68" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="P+7" gate="1" pin="+12V"/>
-<wire x1="238.76" y1="160.02" x2="238.76" y2="154.94" width="0.1524" layer="91"/>
-<junction x="238.76" y="154.94"/>
+<wire x1="248.92" y1="177.8" x2="248.92" y2="170.18" width="0.1524" layer="91"/>
+<junction x="248.92" y="154.94"/>
+<pinref part="U$4" gate="G$1" pin="T14"/>
+<wire x1="248.92" y1="170.18" x2="248.92" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="162.56" x2="248.92" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="170.18" x2="248.92" y2="170.18" width="0.1524" layer="91"/>
+<junction x="248.92" y="170.18"/>
+<pinref part="U$4" gate="G$1" pin="T15"/>
+<wire x1="233.68" y1="162.56" x2="248.92" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="T19"/>
+<wire x1="233.68" y1="132.08" x2="248.92" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="132.08" x2="248.92" y2="139.7" width="0.1524" layer="91"/>
+<junction x="248.92" y="139.7"/>
+<pinref part="U$4" gate="G$1" pin="T20"/>
+<wire x1="233.68" y1="124.46" x2="248.92" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="124.46" x2="248.92" y2="132.08" width="0.1524" layer="91"/>
+<junction x="248.92" y="132.08"/>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$2" pin="T21"/>
@@ -5033,10 +5040,6 @@ Output is I2C signal</text>
 <junction x="271.78" y="172.72"/>
 <pinref part="U$4" gate="G$2" pin="T25"/>
 <wire x1="271.78" y1="165.1" x2="279.4" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="165.1" x2="271.78" y2="157.48" width="0.1524" layer="91"/>
-<junction x="271.78" y="165.1"/>
-<pinref part="U$4" gate="G$2" pin="T26"/>
-<wire x1="271.78" y1="157.48" x2="279.4" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="P+6" gate="1" pin="+12V"/>
 <wire x1="271.78" y1="200.66" x2="271.78" y2="195.58" width="0.1524" layer="91"/>
 <junction x="271.78" y="195.58"/>
@@ -5101,6 +5104,14 @@ Output is I2C signal</text>
 <wire x1="200.66" y1="154.94" x2="190.5" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="P+5" gate="1" pin="+5V"/>
 <wire x1="190.5" y1="154.94" x2="190.5" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="177.8" x2="200.66" y2="185.42" width="0.1524" layer="91"/>
+<junction x="200.66" y="177.8"/>
+<pinref part="U$4" gate="G$1" pin="T2"/>
+<wire x1="200.66" y1="185.42" x2="205.74" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="185.42" x2="200.66" y2="193.04" width="0.1524" layer="91"/>
+<junction x="200.66" y="185.42"/>
+<pinref part="U$4" gate="G$1" pin="T1"/>
+<wire x1="200.66" y1="193.04" x2="205.74" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="T13"/>
@@ -5204,26 +5215,26 @@ Output is I2C signal</text>
 </net>
 <net name="SCL" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="B1"/>
-<wire x1="205.74" y1="190.5" x2="193.04" y2="190.5" width="0.1524" layer="91"/>
-<label x="193.04" y="190.5" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="G$1" pin="SCL"/>
 <wire x1="60.96" y1="129.54" x2="53.34" y2="129.54" width="0.1524" layer="91"/>
 <label x="53.34" y="129.54" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$4" gate="G$2" pin="B26"/>
+<wire x1="279.4" y1="154.94" x2="266.7" y2="154.94" width="0.1524" layer="91"/>
+<label x="266.7" y="154.94" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SDA" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="B2"/>
-<wire x1="205.74" y1="182.88" x2="193.04" y2="182.88" width="0.1524" layer="91"/>
-<label x="193.04" y="182.88" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="SDA"/>
 <wire x1="60.96" y1="132.08" x2="53.34" y2="132.08" width="0.1524" layer="91"/>
 <label x="53.34" y="132.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$2" pin="B27"/>
+<wire x1="279.4" y1="147.32" x2="266.7" y2="147.32" width="0.1524" layer="91"/>
+<label x="266.7" y="147.32" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
