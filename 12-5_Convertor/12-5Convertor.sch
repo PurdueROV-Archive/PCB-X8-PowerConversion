@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4313,46 +4313,46 @@ Source: AVX .. aphvc.pdf</description>
 <library name="Connectors">
 <packages>
 <package name="HSC8-40PINOUUT">
-<smd name="T1" x="0.8" y="2.4" dx="0.6" dy="4.5" layer="1"/>
-<smd name="T3" x="2.4" y="2.4" dx="0.6" dy="4.5" layer="1"/>
-<smd name="T5" x="4" y="2.4" dx="0.6" dy="4.5" layer="1"/>
-<smd name="T7" x="5.6" y="2.4" dx="0.6" dy="4.5" layer="1"/>
-<smd name="T9" x="7.2" y="2.4" dx="0.6" dy="4.5" layer="1"/>
-<smd name="T11" x="8.8" y="2.4" dx="0.6" dy="4.5" layer="1"/>
-<smd name="T13" x="10.4" y="2.4" dx="0.6" dy="4.5" layer="1"/>
-<smd name="T15" x="12" y="2.4" dx="0.6" dy="4.5" layer="1"/>
-<smd name="T17" x="13.6" y="2.4" dx="0.6" dy="4.5" layer="1"/>
-<smd name="T19" x="15.2" y="2.4" dx="0.6" dy="4.5" layer="1"/>
-<smd name="T21" x="16.8" y="2.4" dx="0.6" dy="4.5" layer="1"/>
-<smd name="B2" x="1.6" y="2.4" dx="0.6" dy="4.5" layer="16"/>
-<smd name="B4" x="3.2" y="2.4" dx="0.6" dy="4.5" layer="16"/>
-<smd name="B6" x="4.8" y="2.4" dx="0.6" dy="4.5" layer="16"/>
-<smd name="B8" x="6.4" y="2.4" dx="0.6" dy="4.5" layer="16"/>
-<smd name="B10" x="8" y="2.4" dx="0.6" dy="4.5" layer="16"/>
-<smd name="B12" x="9.6" y="2.4" dx="0.6" dy="4.5" layer="16"/>
-<smd name="B14" x="11.2" y="2.4" dx="0.6" dy="4.5" layer="16"/>
-<smd name="B16" x="12.8" y="2.4" dx="0.6" dy="4.5" layer="16"/>
-<smd name="B18" x="14.4" y="2.4" dx="0.6" dy="4.5" layer="16"/>
-<smd name="B20" x="16" y="2.4" dx="0.6" dy="4.5" layer="16"/>
-<smd name="B40" x="35.2" y="2.4" dx="0.6" dy="4.5" layer="16" rot="R180"/>
-<smd name="B38" x="33.6" y="2.4" dx="0.6" dy="4.5" layer="16" rot="R180"/>
-<smd name="B36" x="32" y="2.4" dx="0.6" dy="4.5" layer="16" rot="R180"/>
-<smd name="B34" x="30.4" y="2.4" dx="0.6" dy="4.5" layer="16" rot="R180"/>
-<smd name="B32" x="28.8" y="2.4" dx="0.6" dy="4.5" layer="16" rot="R180"/>
-<smd name="B30" x="27.2" y="2.4" dx="0.6" dy="4.5" layer="16" rot="R180"/>
-<smd name="B28" x="25.6" y="2.4" dx="0.6" dy="4.5" layer="16" rot="R180"/>
-<smd name="B26" x="24" y="2.4" dx="0.6" dy="4.5" layer="16" rot="R180"/>
-<smd name="B24" x="22.4" y="2.4" dx="0.6" dy="4.5" layer="16" rot="R180"/>
-<smd name="T39" x="34.4" y="2.4" dx="0.6" dy="4.5" layer="1" rot="R180"/>
-<smd name="T37" x="32.8" y="2.4" dx="0.6" dy="4.5" layer="1" rot="R180"/>
-<smd name="T35" x="31.2" y="2.4" dx="0.6" dy="4.5" layer="1" rot="R180"/>
-<smd name="T33" x="29.6" y="2.4" dx="0.6" dy="4.5" layer="1" rot="R180"/>
-<smd name="T31" x="28" y="2.4" dx="0.6" dy="4.5" layer="1" rot="R180"/>
-<smd name="T29" x="26.4" y="2.4" dx="0.6" dy="4.5" layer="1" rot="R180"/>
-<smd name="T27" x="24.8" y="2.4" dx="0.6" dy="4.5" layer="1" rot="R180"/>
-<smd name="T25" x="23.2" y="2.4" dx="0.6" dy="4.5" layer="1" rot="R180"/>
-<smd name="T23" x="21.6" y="2.4" dx="0.6" dy="4.5" layer="1" rot="R180"/>
-<smd name="B22" x="17.6" y="2.4" dx="0.6" dy="4.5" layer="16" rot="R180"/>
+<smd name="T1" x="0.8" y="2.4" dx="0.575" dy="4.5" layer="1"/>
+<smd name="T3" x="2.4" y="2.4" dx="0.575" dy="4.5" layer="1"/>
+<smd name="T5" x="4" y="2.4" dx="0.575" dy="4.5" layer="1"/>
+<smd name="T7" x="5.6" y="2.4" dx="0.575" dy="4.5" layer="1"/>
+<smd name="T9" x="7.2" y="2.4" dx="0.575" dy="4.5" layer="1"/>
+<smd name="T11" x="8.8" y="2.4" dx="0.575" dy="4.5" layer="1"/>
+<smd name="T13" x="10.4" y="2.4" dx="0.575" dy="4.5" layer="1"/>
+<smd name="T15" x="12" y="2.4" dx="0.575" dy="4.5" layer="1"/>
+<smd name="T17" x="13.6" y="2.4" dx="0.575" dy="4.5" layer="1"/>
+<smd name="T19" x="15.2" y="2.4" dx="0.575" dy="4.5" layer="1"/>
+<smd name="T21" x="16.8" y="2.4" dx="0.575" dy="4.5" layer="1"/>
+<smd name="B2" x="1.6" y="2.4" dx="0.575" dy="4.5" layer="16"/>
+<smd name="B4" x="3.2" y="2.4" dx="0.575" dy="4.5" layer="16"/>
+<smd name="B6" x="4.8" y="2.4" dx="0.575" dy="4.5" layer="16"/>
+<smd name="B8" x="6.4" y="2.4" dx="0.575" dy="4.5" layer="16"/>
+<smd name="B10" x="8" y="2.4" dx="0.575" dy="4.5" layer="16"/>
+<smd name="B12" x="9.6" y="2.4" dx="0.575" dy="4.5" layer="16"/>
+<smd name="B14" x="11.2" y="2.4" dx="0.575" dy="4.5" layer="16"/>
+<smd name="B16" x="12.8" y="2.4" dx="0.575" dy="4.5" layer="16"/>
+<smd name="B18" x="14.4" y="2.4" dx="0.575" dy="4.5" layer="16"/>
+<smd name="B20" x="16" y="2.4" dx="0.575" dy="4.5" layer="16"/>
+<smd name="B40" x="35.2" y="2.4" dx="0.575" dy="4.5" layer="16" rot="R180"/>
+<smd name="B38" x="33.6" y="2.4" dx="0.575" dy="4.5" layer="16" rot="R180"/>
+<smd name="B36" x="32" y="2.4" dx="0.575" dy="4.5" layer="16" rot="R180"/>
+<smd name="B34" x="30.4" y="2.4" dx="0.575" dy="4.5" layer="16" rot="R180"/>
+<smd name="B32" x="28.8" y="2.4" dx="0.575" dy="4.5" layer="16" rot="R180"/>
+<smd name="B30" x="27.2" y="2.4" dx="0.575" dy="4.5" layer="16" rot="R180"/>
+<smd name="B28" x="25.6" y="2.4" dx="0.575" dy="4.5" layer="16" rot="R180"/>
+<smd name="B26" x="24" y="2.4" dx="0.575" dy="4.5" layer="16" rot="R180"/>
+<smd name="B24" x="22.4" y="2.4" dx="0.575" dy="4.5" layer="16" rot="R180"/>
+<smd name="T39" x="34.4" y="2.4" dx="0.575" dy="4.5" layer="1" rot="R180"/>
+<smd name="T37" x="32.8" y="2.4" dx="0.575" dy="4.5" layer="1" rot="R180"/>
+<smd name="T35" x="31.2" y="2.4" dx="0.575" dy="4.5" layer="1" rot="R180"/>
+<smd name="T33" x="29.6" y="2.4" dx="0.575" dy="4.5" layer="1" rot="R180"/>
+<smd name="T31" x="28" y="2.4" dx="0.575" dy="4.5" layer="1" rot="R180"/>
+<smd name="T29" x="26.4" y="2.4" dx="0.575" dy="4.5" layer="1" rot="R180"/>
+<smd name="T27" x="24.8" y="2.4" dx="0.575" dy="4.5" layer="1" rot="R180"/>
+<smd name="T25" x="23.2" y="2.4" dx="0.575" dy="4.5" layer="1" rot="R180"/>
+<smd name="T23" x="21.6" y="2.4" dx="0.575" dy="4.5" layer="1" rot="R180"/>
+<smd name="B22" x="17.6" y="2.4" dx="0.575" dy="4.5" layer="16" rot="R180"/>
 <wire x1="36.25" y1="20" x2="0" y2="20" width="0.127" layer="21"/>
 <wire x1="0" y1="0" x2="18.6" y2="0" width="0.127" layer="20"/>
 <wire x1="18.6" y1="0" x2="18.61" y2="0" width="0.127" layer="20"/>
@@ -4360,46 +4360,46 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="18.6" y1="7.35" x2="21" y2="7.35" width="0.127" layer="20"/>
 <wire x1="21" y1="7.35" x2="21" y2="0" width="0.127" layer="20"/>
 <wire x1="21" y1="0" x2="36.25" y2="0" width="0.127" layer="20"/>
-<smd name="T2" x="1.6" y="2.4" dx="0.6" dy="4.5" layer="1"/>
-<smd name="T4" x="3.2" y="2.4" dx="0.6" dy="4.5" layer="1"/>
-<smd name="T6" x="4.8" y="2.4" dx="0.6" dy="4.5" layer="1"/>
-<smd name="T8" x="6.4" y="2.4" dx="0.6" dy="4.5" layer="1"/>
-<smd name="T10" x="8" y="2.4" dx="0.6" dy="4.5" layer="1"/>
-<smd name="T12" x="9.6" y="2.4" dx="0.6" dy="4.5" layer="1"/>
-<smd name="T14" x="11.2" y="2.4" dx="0.6" dy="4.5" layer="1"/>
-<smd name="T16" x="12.8" y="2.4" dx="0.6" dy="4.5" layer="1"/>
-<smd name="T18" x="14.4" y="2.4" dx="0.6" dy="4.5" layer="1"/>
-<smd name="T20" x="16" y="2.4" dx="0.6" dy="4.5" layer="1"/>
-<smd name="T22" x="17.6" y="2.4" dx="0.6" dy="4.5" layer="1"/>
-<smd name="T24" x="22.4" y="2.4" dx="0.6" dy="4.5" layer="1"/>
-<smd name="T26" x="24" y="2.4" dx="0.6" dy="4.5" layer="1"/>
-<smd name="T28" x="25.6" y="2.4" dx="0.6" dy="4.5" layer="1"/>
-<smd name="T30" x="27.2" y="2.4" dx="0.6" dy="4.5" layer="1"/>
-<smd name="T32" x="28.8" y="2.4" dx="0.6" dy="4.5" layer="1"/>
-<smd name="T34" x="30.4" y="2.4" dx="0.6" dy="4.5" layer="1"/>
-<smd name="T36" x="32" y="2.4" dx="0.6" dy="4.5" layer="1"/>
-<smd name="T38" x="33.6" y="2.4" dx="0.6" dy="4.5" layer="1"/>
-<smd name="T40" x="35.2" y="2.4" dx="0.6" dy="4.5" layer="1"/>
-<smd name="B1" x="0.8" y="2.4" dx="0.6" dy="4.5" layer="16"/>
-<smd name="B3" x="2.4" y="2.4" dx="0.6" dy="4.5" layer="16"/>
-<smd name="B5" x="4" y="2.4" dx="0.6" dy="4.5" layer="16"/>
-<smd name="B7" x="5.6" y="2.4" dx="0.6" dy="4.5" layer="16"/>
-<smd name="B9" x="7.2" y="2.4" dx="0.6" dy="4.5" layer="16"/>
-<smd name="B11" x="8.8" y="2.4" dx="0.6" dy="4.5" layer="16"/>
-<smd name="B13" x="10.4" y="2.4" dx="0.6" dy="4.5" layer="16"/>
-<smd name="B15" x="12" y="2.4" dx="0.6" dy="4.5" layer="16"/>
-<smd name="B17" x="13.6" y="2.4" dx="0.6" dy="4.5" layer="16"/>
-<smd name="B19" x="15.2" y="2.4" dx="0.6" dy="4.5" layer="16"/>
-<smd name="B21" x="16.8" y="2.4" dx="0.6" dy="4.5" layer="16"/>
-<smd name="B23" x="21.6" y="2.4" dx="0.6" dy="4.5" layer="16"/>
-<smd name="B25" x="23.2" y="2.4" dx="0.6" dy="4.5" layer="16"/>
-<smd name="B27" x="24.8" y="2.4" dx="0.6" dy="4.5" layer="16"/>
-<smd name="B29" x="26.4" y="2.4" dx="0.6" dy="4.5" layer="16"/>
-<smd name="B31" x="28" y="2.4" dx="0.6" dy="4.5" layer="16"/>
-<smd name="B33" x="29.6" y="2.4" dx="0.6" dy="4.5" layer="16"/>
-<smd name="B35" x="31.2" y="2.4" dx="0.6" dy="4.5" layer="16"/>
-<smd name="B37" x="32.8" y="2.4" dx="0.6" dy="4.5" layer="16"/>
-<smd name="B39" x="34.4" y="2.4" dx="0.6" dy="4.5" layer="16"/>
+<smd name="T2" x="1.6" y="2.4" dx="0.575" dy="4.5" layer="1"/>
+<smd name="T4" x="3.2" y="2.4" dx="0.575" dy="4.5" layer="1"/>
+<smd name="T6" x="4.8" y="2.4" dx="0.575" dy="4.5" layer="1"/>
+<smd name="T8" x="6.4" y="2.4" dx="0.575" dy="4.5" layer="1"/>
+<smd name="T10" x="8" y="2.4" dx="0.575" dy="4.5" layer="1"/>
+<smd name="T12" x="9.6" y="2.4" dx="0.575" dy="4.5" layer="1"/>
+<smd name="T14" x="11.2" y="2.4" dx="0.575" dy="4.5" layer="1"/>
+<smd name="T16" x="12.8" y="2.4" dx="0.575" dy="4.5" layer="1"/>
+<smd name="T18" x="14.4" y="2.4" dx="0.575" dy="4.5" layer="1"/>
+<smd name="T20" x="16" y="2.4" dx="0.575" dy="4.5" layer="1"/>
+<smd name="T22" x="17.6" y="2.4" dx="0.575" dy="4.5" layer="1"/>
+<smd name="T24" x="22.4" y="2.4" dx="0.575" dy="4.5" layer="1"/>
+<smd name="T26" x="24" y="2.4" dx="0.575" dy="4.5" layer="1"/>
+<smd name="T28" x="25.6" y="2.4" dx="0.575" dy="4.5" layer="1"/>
+<smd name="T30" x="27.2" y="2.4" dx="0.575" dy="4.5" layer="1"/>
+<smd name="T32" x="28.8" y="2.4" dx="0.575" dy="4.5" layer="1"/>
+<smd name="T34" x="30.4" y="2.4" dx="0.575" dy="4.5" layer="1"/>
+<smd name="T36" x="32" y="2.4" dx="0.575" dy="4.5" layer="1"/>
+<smd name="T38" x="33.6" y="2.4" dx="0.575" dy="4.5" layer="1"/>
+<smd name="T40" x="35.2" y="2.4" dx="0.575" dy="4.5" layer="1"/>
+<smd name="B1" x="0.8" y="2.4" dx="0.575" dy="4.5" layer="16"/>
+<smd name="B3" x="2.4" y="2.4" dx="0.575" dy="4.5" layer="16"/>
+<smd name="B5" x="4" y="2.4" dx="0.575" dy="4.5" layer="16"/>
+<smd name="B7" x="5.6" y="2.4" dx="0.575" dy="4.5" layer="16"/>
+<smd name="B9" x="7.2" y="2.4" dx="0.575" dy="4.5" layer="16"/>
+<smd name="B11" x="8.8" y="2.4" dx="0.575" dy="4.5" layer="16"/>
+<smd name="B13" x="10.4" y="2.4" dx="0.575" dy="4.5" layer="16"/>
+<smd name="B15" x="12" y="2.4" dx="0.575" dy="4.5" layer="16"/>
+<smd name="B17" x="13.6" y="2.4" dx="0.575" dy="4.5" layer="16"/>
+<smd name="B19" x="15.2" y="2.4" dx="0.575" dy="4.5" layer="16"/>
+<smd name="B21" x="16.8" y="2.4" dx="0.575" dy="4.5" layer="16"/>
+<smd name="B23" x="21.6" y="2.4" dx="0.575" dy="4.5" layer="16"/>
+<smd name="B25" x="23.2" y="2.4" dx="0.575" dy="4.5" layer="16"/>
+<smd name="B27" x="24.8" y="2.4" dx="0.575" dy="4.5" layer="16"/>
+<smd name="B29" x="26.4" y="2.4" dx="0.575" dy="4.5" layer="16"/>
+<smd name="B31" x="28" y="2.4" dx="0.575" dy="4.5" layer="16"/>
+<smd name="B33" x="29.6" y="2.4" dx="0.575" dy="4.5" layer="16"/>
+<smd name="B35" x="31.2" y="2.4" dx="0.575" dy="4.5" layer="16"/>
+<smd name="B37" x="32.8" y="2.4" dx="0.575" dy="4.5" layer="16"/>
+<smd name="B39" x="34.4" y="2.4" dx="0.575" dy="4.5" layer="16"/>
 <wire x1="36.25" y1="0" x2="36.25" y2="5.5" width="0.127" layer="20"/>
 <wire x1="36.25" y1="14.4" x2="36.25" y2="20" width="0.127" layer="21"/>
 <wire x1="0" y1="14.4" x2="0" y2="20" width="0.127" layer="21"/>
